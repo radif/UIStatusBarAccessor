@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49D324D01508A7160026EC95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D324CF1508A7160026EC95 /* UIKit.framework */; };
+		49D324D21508A7160026EC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D324D11508A7160026EC95 /* Foundation.framework */; };
+		49D324D41508A7160026EC95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D324D31508A7160026EC95 /* CoreGraphics.framework */; };
+		49D324DA1508A7160026EC95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49D324D81508A7160026EC95 /* InfoPlist.strings */; };
+		49D324DC1508A7160026EC95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D324DB1508A7160026EC95 /* main.m */; };
+		49D324E01508A7160026EC95 /* cdaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D324DF1508A7160026EC95 /* cdaAppDelegate.m */; };
+		49D324E31508A7160026EC95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D324E11508A7160026EC95 /* MainStoryboard.storyboard */; };
+		49D324E61508A7160026EC95 /* cdaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D324E51508A7160026EC95 /* cdaViewController.m */; };
+		49D324EF1508A7450026EC95 /* rsStatusBarAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D324EE1508A7450026EC95 /* rsStatusBarAccessor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49D324CB1508A7160026EC95 /* UIStatusBarAccessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIStatusBarAccessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D324CF1508A7160026EC95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49D324D11508A7160026EC95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49D324D31508A7160026EC95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49D324D71508A7160026EC95 /* UIStatusBarAccessor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIStatusBarAccessor-Info.plist"; sourceTree = "<group>"; };
+		49D324D91508A7160026EC95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49D324DB1508A7160026EC95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49D324DD1508A7160026EC95 /* UIStatusBarAccessor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStatusBarAccessor-Prefix.pch"; sourceTree = "<group>"; };
+		49D324DE1508A7160026EC95 /* cdaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdaAppDelegate.h; sourceTree = "<group>"; };
+		49D324DF1508A7160026EC95 /* cdaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cdaAppDelegate.m; sourceTree = "<group>"; };
+		49D324E21508A7160026EC95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		49D324E41508A7160026EC95 /* cdaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cdaViewController.h; sourceTree = "<group>"; };
+		49D324E51508A7160026EC95 /* cdaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cdaViewController.m; sourceTree = "<group>"; };
+		49D324ED1508A7450026EC95 /* rsStatusBarAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsStatusBarAccessor.h; sourceTree = "<group>"; };
+		49D324EE1508A7450026EC95 /* rsStatusBarAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rsStatusBarAccessor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D324C81508A7160026EC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D324D01508A7160026EC95 /* UIKit.framework in Frameworks */,
+				49D324D21508A7160026EC95 /* Foundation.framework in Frameworks */,
+				49D324D41508A7160026EC95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D324C01508A7160026EC95 = {
+			isa = PBXGroup;
+			children = (
+				49D324EC1508A7450026EC95 /* rsStatusBarAccessor */,
+				49D324D51508A7160026EC95 /* UIStatusBarAccessor */,
+				49D324CE1508A7160026EC95 /* Frameworks */,
+				49D324CC1508A7160026EC95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D324CC1508A7160026EC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D324CB1508A7160026EC95 /* UIStatusBarAccessor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D324CE1508A7160026EC95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D324CF1508A7160026EC95 /* UIKit.framework */,
+				49D324D11508A7160026EC95 /* Foundation.framework */,
+				49D324D31508A7160026EC95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49D324D51508A7160026EC95 /* UIStatusBarAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				49D324DE1508A7160026EC95 /* cdaAppDelegate.h */,
+				49D324DF1508A7160026EC95 /* cdaAppDelegate.m */,
+				49D324E11508A7160026EC95 /* MainStoryboard.storyboard */,
+				49D324E41508A7160026EC95 /* cdaViewController.h */,
+				49D324E51508A7160026EC95 /* cdaViewController.m */,
+				49D324D61508A7160026EC95 /* Supporting Files */,
+			);
+			path = UIStatusBarAccessor;
+			sourceTree = "<group>";
+		};
+		49D324D61508A7160026EC95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49D324D71508A7160026EC95 /* UIStatusBarAccessor-Info.plist */,
+				49D324D81508A7160026EC95 /* InfoPlist.strings */,
+				49D324DB1508A7160026EC95 /* main.m */,
+				49D324DD1508A7160026EC95 /* UIStatusBarAccessor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49D324EC1508A7450026EC95 /* rsStatusBarAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				49D324ED1508A7450026EC95 /* rsStatusBarAccessor.h */,
+				49D324EE1508A7450026EC95 /* rsStatusBarAccessor.m */,
+			);
+			name = rsStatusBarAccessor;
+			path = UIStatusBarAccessor/rsStatusBarAccessor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D324CA1508A7160026EC95 /* UIStatusBarAccessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D324E91508A7160026EC95 /* Build configuration list for PBXNativeTarget "UIStatusBarAccessor" */;
+			buildPhases = (
+				49D324C71508A7160026EC95 /* Sources */,
+				49D324C81508A7160026EC95 /* Frameworks */,
+				49D324C91508A7160026EC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIStatusBarAccessor;
+			productName = UIStatusBarAccessor;
+			productReference = 49D324CB1508A7160026EC95 /* UIStatusBarAccessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D324C21508A7160026EC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = cda;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 49D324C51508A7160026EC95 /* Build configuration list for PBXProject "UIStatusBarAccessor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49D324C01508A7160026EC95;
+			productRefGroup = 49D324CC1508A7160026EC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D324CA1508A7160026EC95 /* UIStatusBarAccessor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D324C91508A7160026EC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D324DA1508A7160026EC95 /* InfoPlist.strings in Resources */,
+				49D324E31508A7160026EC95 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D324C71508A7160026EC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D324DC1508A7160026EC95 /* main.m in Sources */,
+				49D324E01508A7160026EC95 /* cdaAppDelegate.m in Sources */,
+				49D324E61508A7160026EC95 /* cdaViewController.m in Sources */,
+				49D324EF1508A7450026EC95 /* rsStatusBarAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49D324D81508A7160026EC95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D324D91508A7160026EC95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49D324E11508A7160026EC95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D324E21508A7160026EC95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D324E71508A7160026EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		49D324E81508A7160026EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D324EA1508A7160026EC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIStatusBarAccessor/UIStatusBarAccessor-Prefix.pch";
+				INFOPLIST_FILE = "UIStatusBarAccessor/UIStatusBarAccessor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49D324EB1508A7160026EC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIStatusBarAccessor/UIStatusBarAccessor-Prefix.pch";
+				INFOPLIST_FILE = "UIStatusBarAccessor/UIStatusBarAccessor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D324C51508A7160026EC95 /* Build configuration list for PBXProject "UIStatusBarAccessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D324E71508A7160026EC95 /* Debug */,
+				49D324E81508A7160026EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D324E91508A7160026EC95 /* Build configuration list for PBXNativeTarget "UIStatusBarAccessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D324EA1508A7160026EC95 /* Debug */,
+				49D324EB1508A7160026EC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D324C21508A7160026EC95 /* Project object */;
+}
